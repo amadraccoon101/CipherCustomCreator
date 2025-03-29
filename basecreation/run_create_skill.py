@@ -1,18 +1,25 @@
 from skillCreator import createSkills
 import sys, threading
 
-fname = "AM01"
-f = open("inputAM01.txt", "r", encoding="utf-8")
-fntsize = 8
+fname = "AM02"
+f = open("inputAM02Revised.txt", "r", encoding="utf-8")
+fntsize = 7
 
 nextline = f.readline()
 while nextline:
+    fntsize = 8
     cardName = nextline.strip()
     bordertxt = f.readline().strip()
     #bordertxt = bordertxt.strip()
     border = True
-    if bordertxt == "false":
+    if "false" in bordertxt:
         border = False
+    if "7" in bordertxt:
+        fntsize = 7
+    rwln = 290
+    if "rlnch" in bordertxt:
+        nextline = f.readline()
+        rwln = int(nextline.strip())
     skills = []
     nextline = f.readline()
     while nextline and nextline.strip() != "---------------":
@@ -22,7 +29,7 @@ while nextline:
     print(border)
     print(cardName)
     print(skills)
-    createSkills(skills, cardName, border, fname, fntsize)
+    createSkills(skills, cardName, border, fname, fntsize, rwln)
     nextline = f.readline()
 
 limit = sys.getrecursionlimit()

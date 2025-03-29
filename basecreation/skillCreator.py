@@ -1,7 +1,7 @@
 from PIL import Image, ImageFont, ImageDraw
 from base_editor_helper import skillname_text_creator, get_rows, drawCharBorder   
 
-def createSkills(skills, cardName, border, fname, fntsize):
+def createSkills(skills, cardName, border, fname, fntsize, rwln):
     ###############################################################################################################
     ###############################################################################################################
     #Parse Input
@@ -23,7 +23,7 @@ def createSkills(skills, cardName, border, fname, fntsize):
     ###############################################################################################################
     #Constants
     ###############################################################################################################
-    skillatr = ['lis','bs','hs','es','cp','db','dv','ts','fs','ccs','cf','gs','us','is','as','lvs2','lvs3','lvs4','lvs5','lvs7']
+    skillatr = ['lis','bs','hs','es','cp','db','dv','ts','fs','ccs','cf','sts','gs','us','is','as','lvs2','lvs3','lvs4','lvs5','lvs7']
     skilltypes = ['act','auto','cont','bond','spec','supp','hand']
 
     attributes = ['armor','axe','beast','black','blue','bow','brawl','brown','dragon','dragonstone','knife',
@@ -60,7 +60,7 @@ def createSkills(skills, cardName, border, fname, fntsize):
     charwid = 3
     rowheight = 12
     rowextra = 2
-    rowlen = 285
+    rowlen = rwln
     rows = get_rows(skills, charwid, rowheight, rowextra, fontsize, attributes, font, rowlen-25)
     print("ROWS:")
     print(rows)
@@ -127,8 +127,12 @@ def createSkills(skills, cardName, border, fname, fntsize):
                     ypos = ypos + rowextra
                 elif skilltext[idx].lower() in skillatr:
                     xpos = xpos - charwid
+                    if fntsize < 8:
+                        ypos = ypos - 1
                     skltxt = skilltext[idx].lower()
                     imskl = Image.open('skillheaders/'+ skltxt +'.png')
+                    if fntsize < 8:
+                        imskl = Image.open('skillheaders/text/'+ skltxt +'.png')
                     x,y = imskl.size
                     if y > rowheight:
                         #print(y)
@@ -148,6 +152,8 @@ def createSkills(skills, cardName, border, fname, fntsize):
                         xpos = xpos + x
                     else:
                         output.paste(imskl, (xpos - x,ypos), imskl)
+                    if fntsize < 8:
+                        ypos = ypos + 1
                 else:
                     strskl = skilltext[idx].split(' ')
                     j = 0

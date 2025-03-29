@@ -52,8 +52,8 @@ The Interesting Maneuver |ACT| |OPT| [Tap 1 other |Flier| ally] Until the end of
 ---------------
 AM01-11
 false
-Heir’s Roar |ACT| |OPT| [|flip2|] Reveal the top 4 cards of your deck. Choose up to 2 |Fang| cards from among the revealed cards and add them to your hand, and send the rest to the Retreat Area. This skill may only be used if you have 3 or fewer cards in your hand.
-Youthful Arrogance |SPEC| This card cannot be stacked on top of a “Skrimir” from your hand to Level Up him as the result of a skill's effect.
+General's Roar |ACT| |OPT| [|flip2|] Reveal the top 4 cards of your deck. Choose up to 2 |Fang| cards from among the revealed cards and add them to your hand, and send the rest to the Retreat Area. This skill may only be used if you have 4 or fewer cards in your hand.
+Next King of Gallia |CONT| If you have 4 or more Bonds, during your Deployment Phase, all |Fang| cards in your hand have their Deployment Costs reduced by 1. However, Deployment Costs cannot be reduced below 1.
 ---------------
 AM01-12
 false
