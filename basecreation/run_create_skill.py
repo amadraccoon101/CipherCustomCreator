@@ -3,11 +3,11 @@ import sys, threading
 
 fname = "AM02"
 f = open("inputAM02Revised.txt", "r", encoding="utf-8")
-fntsize = 7
+fntsize = 9
 
 nextline = f.readline()
 while nextline:
-    fntsize = 8
+    fntsize = 9
     cardName = nextline.strip()
     bordertxt = f.readline().strip()
     #bordertxt = bordertxt.strip()
@@ -15,7 +15,7 @@ while nextline:
     if "false" in bordertxt:
         border = False
     if "7" in bordertxt:
-        fntsize = 7
+        fntsize = 9
     rwln = 290
     if "rlnch" in bordertxt:
         nextline = f.readline()

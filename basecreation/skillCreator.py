@@ -59,7 +59,7 @@ def createSkills(skills, cardName, border, fname, fntsize, rwln):
     font = ImageFont.truetype('georgiab.ttf', fontsize)
     charwid = 3
     rowheight = 12
-    rowextra = 2
+    rowextra = 0 #2
     rowlen = rwln
     rows = get_rows(skills, charwid, rowheight, rowextra, fontsize, attributes, font, rowlen-25)
     print("ROWS:")
@@ -113,7 +113,6 @@ def createSkills(skills, cardName, border, fname, fntsize, rwln):
                     if xpos > rowlen:
                         xpos = skillx
                         ypos = ypos + rowheight
-                        #print(ypos)
                         if y == 30:     # for smaller images
                             output.paste(imskl, (xpos,ypos + 10), imskl)
                         else:

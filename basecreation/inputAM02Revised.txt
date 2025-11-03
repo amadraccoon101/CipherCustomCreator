@@ -1,200 +1,285 @@
-AM02-01
+AM02-01-Marth
 true Marth
 Come, Join Us! |ACT| |OPT| [Flip 1 |Red| Bond face-down, Tap 1 other |Red| ally] Choose 1 non-“Marth” |Red| card with a Deployment Cost of 4 or lower from your Deck and deploy it in the Front Line.
 Binding Shield, Fire Emblem of Sealing |CONT| All |Dragonstone| cards in your opponent’s Bond Area, Retreat Area, and Boundless Area lose all of their Symbols.
 Progenitor's Falchion |CONT| If this unit is battling a |Dragon| enemy, he gains +30 attack.
 ---------------
-AM02-02
+AM02-02-Hardin
 true Hardin
-Emperor's Tyranny |AUTO| [Send 1 |Red| ally to the Boundless Area] At the start of your opponent's turn, you may pay the cost and if you do: Until the end of the turn, your opponent cannot deploy cards by a skill's effect.
-Darksphere's Aura |AUTO| When a card is sent to the Boundless Area, until the end of the turn, this unit gains +20 attack.
-Conqueror's Triumph |AUTO| [|flip1|] At the end of your turn, if this unit has 100 or more attack, you may pay the cost and if you do: Draw 1 card.
+Insatiable Darkness |AUTO| [|flip1|] At the start of your opponent's Action Phase, you may pay the cost and if you do: Choose 1 other |Red| ally. Choose 1 non-Main Character enemy with Deployment Cost less than or equal to the Deployment Cost of that ally. Send the chosen cards to the Boundless Area.
+Gradivus and Darksphere |AUTO| When a card is sent to the Boundless Area, until the end of the turn, this unit acquires range 1-2 and cannot be destroyed by attacks from enemies with a Deployment Cost of 3 or lower.
 ---------------
-AM02-03
-true Shannan 7
-Od's Celestial Blade |ACT| |OPT| [Flip 1 "Shannan" or "Mariccle" Bond face-down] Until the end of your turn, this unit gains +20 attack and all other |Sword| allies gain +10 attack.
-Balmung's Supreme Astra |AUTO| At the end of this unit's first attack this turn, if you have 5 or more Bonds and this unit has used "Od's Celestial Blade" this turn, untap this unit.
+AM02-03-Seliph
+true Seliph
+Baldr's Light Blade |ACT| |OPT| [Flip 1 "Seliph" or "Sigurd" Bond face-down] Until the end of your opponent's next turn, all |Yellow| allies gain +10 attack.
+Tyrfing's Darkness-Repelling Prayer |AUTO| At the end of your turn, if you have 6 or more Bonds and this unit has used "Baldr's Light Blade" this turn, until the end of your opponent's next turn, all |Yellow| allies cannot be destroyed or sent to the Boundless Area by the cost or effect of a |Tome| enemy's skills.
+Reuniting the Crusaders |ACT| |OPT| Choose 1 of your |Yellow| Bonds. Until the end of the turn, it acquires the Unit Names of all other allies.
+---------------
+AM02-04-Shannan
+true Shannan
+Od's Celestial Blade |ACT| |OPT| [Flip 1 "Mariccle" or "Shannan" Bond face-down] Until the end of your turn, this unit gains +20 attack and |Sword| allies gain +10 attack.
+Balmung's Supreme Astra |AUTO| At the end of this unit's first attack this turn, if you have 5 or more Bond cards and this unit has used "Od's Celestial Blade" this turn, untap this unit.
 Fostering the Future Crusaders |ACT| |OPT| [Send 1 |Yellow| Bond to the Retreat Area] Choose 1 |Sword| card with a Deployment Cost of 4 or lower from your Retreat Area and place it in your Bond Area.
 ---------------
-AM02-04
+AM02-05-Mariccle
 false Mariccle
-BS*Surviving Hope of Isaach |BOND| |AUTO| [Send 1 card from your hand to the Retreat Area] When this card is placed in the Bond Area, you may pay the cost and if you do: Add 1 "Ayra" or "Shannan" from your Retreat Area and add it to your hand.
+BS*Surviving Hope of Isaach |BOND| |AUTO| [Send 1 card from your hand to the Retreat Area] When this card is placed in the Bond Area, you may pay the cost and if you do: Choose 1 "Ayra" or "Shannan" from your Retreat Area and add it to your hand.
 ---------------
-AM02-05
+AM02-06-Ayra
 true Ayra
 Teachings of the Sword Princess |ACT| |OPT| [|flip1|, Send 1 |Yellow| Bond to the Retreat Area] Choose 1 |Sword| card from your hand and place it in your Bond Area. If you do, choose 1 card with the same Unit Name as another |Sword| ally from your Retreat Area and add it to your hand.
-Defending the Prince with Her Life |ACT| |OPT| If you have an allied "Shannan", until the end of your opponent's next turn, this unit and allied "Shannan" gain +10 attack.
+Protector of the Prince |ACT| |OPT| If you have an allied "Shannan", until the end of your opponent's next turn, this unit and allied "Shannan" gain +10 attack.
 ---------------
-AM02-06
-true Ced 7
+AM02-07-Ced
+true Ced
 Ced's Heavenly Wind |ACT| |OPT| [Flip 1 "Ced" or "Lewyn" Bond Face-Down] Choose 1 non-"Ced" |Yellow| card that is a |Tome| or |Flier| from your Retreat Area, and add it to your hand. Until the end of your opponent’s next turn, all allies acquire |Flier|.
 Forseti's Godly Tempest |AUTO| When this unit attacks, if you have 5 or more Bonds and have used "Ced's Heavenly Wind" this turn, until the end of combat he gains +10 attack for each |Flier| ally.
 Heir to the Silessean Throne |CONT| When a |Yellow| |Flier| ally is supported by a |Tome|, that unit gains +10 attack.
 ---------------
-AM02-07
+AM02-08-Annand
 false Annand
 Heavenly General |AUTO| When a |Yellow| ally that is |Flier| or |Tome| is deployed from your Bond Area, choose 1 of your Bond cards and flip it face-up.
 BS*Devotion to Silesse |BOND| |CONT| While you have an allied "Lewyn" or "Erinys", the Deployment Cost of this card in your Bond Area is reduced by 1.
 ---------------
-AM02-08
+AM02-09-Hermina
 false Hermina
-Silessian Aerial Tactics |CONT| During your turn, if you have 2 or more other |Flier| allies, all |Flier| allies gain +10 attack.
-Falcon's Idealism |AUTO| |OPT| At the end of your turn, if an ally was Deployed from your Bond Area this turn, choose 1 of your Bonds and add it to your hand.
+Silessian Sky Tactics |CONT| During your turn, if you have 2 or more other |Flier| allies, all |Flier| allies gain +10 attack.
+Falcon's Idealism |AUTO| |OPT| At the end of your turn, if an ally was Deployed from your Bond Area this turn, you may choose 1 of your Bonds and add it to your hand.
 ---------------
-AM02-09
+AM02-10-Amid
 false Amid rlnch
 280
 BS*Banter with a Pegasus Knight |BOND| |ACT| [Flip this card face-down] Choose 1 "Fee" or "Hermina" card from your hand or Bond Area and deploy it. This skill may only be used if you have 5 or more Bond cards.
 ---------------
-AM02-10
+AM02-11-Linda
 true Linda
 Wrath Demanding Liberation |AUTO| |OPT| When an ally critical hits, draw 1 card. Until the end of the turn, this unit gains +40 attack.
 Lightning Illuminating the Darkness |AUTO| At the end of your turn, if 1 or more of your Bond cards were sent to the Retreat Area by the cost or effect of a |Tome| ally's skill this turn, reveal the top card of your Deck and place it in your Bond Area.
 ---------------
-AM02-11
+AM02-12-Linda
 false Linda
 Lineage of Divine Magic |AUTO| |OPT| When a |Tome| card is placed in your Bond Area, until the end of the turn, this unit gains +20 attack.
 ---------------
-AM02-12
-true Febail 7
-Ullr's Holy Bow |ACT| |OPT| [Flip 1 “Brigid” or “Febail” Bond face-down] Until the end of your opponent's next turn, this unit gains +20 attack. If you have as many as or fewer Bond cards than your opponent, choose 1 |Bow| card in your Retreat Area and place it in your Bond Area.
-Yewfelle's Pursuing Arrows |AUTO| When this unit uses "Ullr's Holy Bow" while you have 4 or more Bonds, until this unit leaves the Battlefield, this unit can attack enemies regardless of range.
+AM02-13-Febail
+true Febail
+Ullr's Holy Bow |ACT| |OPT| [Flip 1 “Brigid” or “Febail” Bond face-down] Until the end of your opponent's next turn, this unit gains +20 attack. If you have equal or fewer Bonds than your opponent, choose 1 |Bow| card in your Retreat Area and place it in your Bond Area.
+Yewfelle's Pursuing Arrows |AUTO| When this unit uses "Ullr's Holy Bow", if you have 4 or more Bonds, until this unit leaves the Battlefield, this unit can attack enemies regardless of range.
 Anti-Fliers |CONT| If this unit is attacking a |Flier| enemy, this unit gains +30 attack.
 ---------------
-AM02-13
+AM02-14-Febail
 false Febail
 Heavens Archer |ACT| |OPT| Move this unit. This skill is only usable if this unit is untapped.
 Anti-Fliers |CONT| If this unit is attacking a |Flier|, this unit gains +30 attack.
 ---------------
-AM02-14
-true Patty
-Pirate Girl's Treasure |AUTO| [Send 1 Bond to the Retreat Area] When an ally's attack destroys an enemy, you may pay the cost and if you do: Draw 1 card.
-Thief Bearing the Blood of Ullr |AUTO| |OPT| If a card sent to the Retreat Area from the Bond Area by the cost of a skill is a |Bow|, you may add the top card of your Deck to your Bond Area face-down.
----------------
-AM02-15
+AM02-15-Brigid
 true Brigid
 Awakening the Legendary Bow |AUTO| |OPT| When a |Bow| is placed in your Bond Area, until the end of the turn, this unit gains +30 attack.
 Lineage of the Divine Markswoman |SPEC| When this card is sent from your Bond Area to the Retreat Area by the cost or effect of a |Bow| ally's skill, draw 1 card.
 Anti-Fliers |CONT| If this unit is attacking a |Flier|, this unit gains +30 attack.
 ---------------
-AM02-16
+AM02-16-Jamke
 true Jamke
 Prince's Killer Bow |CONT| If this unit would Critical Hit, you may send 1 Bond card to the Retreat Area instead of sending a card with the same Unit Name as this unit to the Retreat Area. This skill is only active if you have 1 or more |Yellow| |Bow| allies in the Front Line.
 Anti-Fliers |CONT| If this unit is attacking a |Flier|, this unit gains +30 attack.
 ---------------
-AM02-17
+AM02-17-Edain
 false Edain
 Descendent of Ullr |SPEC| This card acquires |Bow| while in your Bond Area or Retreat Area.
 BS*Delivering the Divine Bow |BOND| |AUTO| When this card is placed in your Bond Area by the effect of a |Bow| ally's skill, you may send 1 Bond to the Retreat Area. If you do, choose 1 non-"Edain" |Bow| card in your Retreat Area and place it in your Bond Area.
 ---------------
-AM02-18
-true Ares 7
-Hoðr's Demon Blade |ACT| |OPT| [Flip 1 "Ares" or "Eldigan" Bond face-down] Until the end of the turn, this unit may Critical Hit without sending 1 "Ares" from your hand to the Retreat Area.
-Mystletainn's Knightly Dominion |AUTO| When this unit uses "Hoðr's Demon Blade" while you have 5 or more Bonds, choose 1 enemy in the Back Line and move them.
+AM02-18-Ares
+true Ares
+Hoðr's Demon Blade |ACT| |OPT| [Flip 1 "Eldigan" or "Ares" Bond face-down] Until the end of the turn, this unit may Critical Hit without sending 1 "Ares" from your hand to the Retreat Area.
+Mystletainn's Knightly Dominion |AUTO| When this unit uses "Hoðr's Demon Blade", if you have 5 or more Bonds, choose 1 enemy in the Back Line and move them. Until the end of the turn, non-Main Character enemies cannot evade.
 Future King of Augustria |AUTO| At the end of your turn, if you have 6 or more Bonds, you may choose 1 of your Bond cards and add it to your hand.
 ---------------
-AM02-19
+AM02-19-Laylia
 true Laylia
-A Dance for the New Lionheart |ACT| [|tap|, Send 1 |Yellow| Bond card to the Retreat Area] Choose 1 ally and untap them. If the chosen ally is a |Beast| with a Support of 10, choose 1 card in your Retreat Area and place it in your Bond Area face-down.
-A Leonine Heart of Her Own |CONT| The number of Orbs the attack of an allied "Ares" will destroy is increased by 1.
+A Dance for the New Lionheart |ACT| [|tap|, Send 1 |Yellow| Bond card to the Retreat Area] Choose 1 ally who has attacked this turn and untap them. If the chosen ally is a |Beast| with a Support of 10, choose 1 card in your Retreat Area and place it in your Bond Area face-down.
+Black Knight's Dancer |CONT| The number of Orbs the attack of an allied "Ares" will destroy becomes 2.
 ---------------
-AM02-20
-true Altena 7
-Njörun's Earth-Rending Lance |ACT| |OPT| [Flip 1 "Altena" or "Quan" Bond card face-down] Choose 1 non-"Altena" and non-"Quan" |Lance| card in your Retreat Area and place it in your Bond Area.
+AM02-20-Altena
+true Altena
+Njörun's Earth-Rending Lance |ACT| |OPT| [Flip 1 "Quan" or "Altena" Bond face-down] Choose 1 |Yellow| |Lance| card in your Retreat Area and place it in your Bond Area.
 Gáe Bolg's Resilience |AUTO| When this unit attacks, if you have 7 or more Bond cards and have used "Njörun's Earth-Rending Lance" this turn, you may choose 1 other ally. Until the end of your opponent's next turn, this unit and the chosen ally gain +20 attack.
 Bonds of Heaven and Earth |AUTO| |OPT| Whenever a "Leif" or "Arion" card is placed in your Bond Area, choose up to 1 enemy in the Back Line and move them.
 ---------------
-AM02-21
-true Arion 7
-Dáinn's Sky-Piercing Lance |ACT| |OPT| [Flip 1 "Arion" or "Travant" Bond card face-down] Send 1 |Yellow| Bond card to the Retreat Area. If you do, for every 3 Bonds you have, choose 1 non-Main Character enemy and destroy them.
-Gungnir's Fury |AUTO| When this unit attacks, if you have 7 or more Bonds and have used "Dáinn's Sky-Piercing Lance" this turn, until the end of combat this unit gains +100 attack.
+AM02-21-Arion
+true Arion
+Dáinn's Sky-Piercing Lance |ACT| |OPT| [Flip 1 "Arion" or "Travant" Bond face-down] Send 1 |Yellow| Bond card to the Retreat Area. If you do, for every 3 Bonds you have, choose 1 non-Main Character enemy and destroy them.
+Gungnir's Finality |AUTO| When this unit uses "Dainn's Sky-Piercing Lance", if you have 7 or more Bonds, choose up to 2 cards in your opponent's Retreat Area and send them to the Boundless Area.
 Lord of the Dracoknights |ACT| |OPT| If you have 2 or more other |Dragon| |Flier| allies, choose 1 face-down Bond and flip it face-up.
 ---------------
-AM02-22
+AM02-22-Arion
 false Arion
-Duty and Love |AUTO| When this unit is deployed, if you do not have a "Travant" or "Altena" Bond card, tap this unit.
+Duty and Love |AUTO| When this unit is deployed, if you do not have a "Travant" or "Altena" Bond, tap this unit.
 ---------------
-AM02-23
-false Zelot 7
+AM02-23-Zelot
+false Zelot rlnch
+280
 Captain’s Charisma |AUTO| Whenever a |Beast| ally with a Deployment Cost of 2 or higher is deployed, you may draw 1 card. If you do, choose 1 card from your hand and place it on the top of your Deck.
 Charge of the Ilian Knights |CONT| |Beast| cards in your Support Area with 10 Support acquire "Attack Emblem". However, cards may only have 1 instance of "Attack Emblem". (Attack Emblem |SUPP| Until the end of this combat, your attacking unit gains +20 attack.)
 ---------------
-AM02-24
+AM02-24-Zelot
 false Zelot
 Captain’s Prowess |CONT| During your turn, if you have 1 or more other |Beast| allies, this unit gains +10 attack.
 ---------------
-AM02-25
-true Juno
+AM02-25-Juno
+true Juno rlnch
+295
 Maltet, the Legendary Weapon |ACT| [|flip1|] Until the end of your opponent's next turn, this unit gains +10 attack.
 LIS*Barigan’s Realm-Freezing Lance |ACT| |OPT| Choose 1 non-Main Character enemy per other |Beast| ally. Until the end of your opponent's next turn, those enemies cannot be untapped. This skill may only be used if this unit has used "Maltet, the Legendary Weapon" 2 or more times this turn.
 ---------------
-AM02-26
-true Yoder 7
+AM02-26-Yoder
+true Yoder rlnch
+280
 Aureola, the Legendary Weapon |ACT| [Flip 1 |Purple| Bond face-down] Until the end of the turn, this unit gains +20 attack.
 LIS*Elimine's All-Revealing Light |ACT| |OPT| Until the end of your turn, both players play with the top card of their Decks revealed. This skill may only be used if this unit has used "Aureola, the Legendary Weapon" 2 or more times in this turn.
 Delivering the Legendary Weapons |AUTO| |OPT| When an ally uses a |LIS| skill, reveal 1 card with a |LIS| skill from your hand and place it on the top of your Deck.
 ---------------
-AM02-27
+AM02-27-Eirika
 true Eirika
 Sieglinde, the Sacred Twin |AUTO| |OPT| [Reveal 1 card with a Deployment Cost of 4 or lower in your hand and place it on top of your Deck] When this unit attacks, you may pay the cost and if you do: Until the end of the turn, all allies gain +10 attack.
-STS*Illuminating Thunder Sword |AUTO| |OPT| [|flip2|] At the end of this unit's attack, you may pay the cost and if you do: Deploy this unit's Support Card. This skill only triggers if this unit has used "Sieglinde, the Sacred Twin" this turn and another ally possesses an |STS|.
-Comrades |CONT| If the card supporting this unit possesses an |STS|, the cost of this unit's "Illuminating Thunder Sword" is reduced by |flip1|.
+STS*Shining Thunder Sword |AUTO| |OPT| [|flip2|] At the end of this unit's attack, you may pay the cost and if you do: Deploy this unit's Support Card. This skill only triggers if this unit has used "Sieglinde, the Sacred Twin" this turn and another ally possesses an |STS|.
+Comrades |CONT| If the card supporting this unit possesses an |STS|, the cost of this unit's "Shining Thunder Sword" is reduced by |flip1|.
 ---------------
-AM02-28
+AM02-28-Ephraim
 true Ephraim
 Siegmund, the Sacred Twin |AUTO| |OPT| [Reveal 1 card with a Deployment Cost of 4 or lower in your hand and place it on top of your Deck] When a card with with a Deployment Cost of 4 or lower is placed in your Support Area, you may pay the cost and if you do: You may add that card to your hand and place the top card of your Deck in your Support Area.
 STS*Purifying Flame Lance |CONT| This attacking unit gains +30 attack. This skill is active only if this unit has triggered "Siegmund, the Sacred Twin" this turn and another ally possesses an |STS|.
 ---------------
-AM02-29
+AM02-29-Tana
 true Tana
 Vidofnir, the Sacred Twin |ACT| |OPT| [Tap 1 ally] Choose up to 1 ally and move them.
 STS*Stalwart Winged Lance |ACT| |OPT| Choose 1 ally. Until the end of your opponent's next turn, this unit and that ally gain +10 attack and cannot be destroyed by the cost or effect of an enemy's skill. This skill may only be used if this unit has used "Vidofnir, the Sacred Twin" this turn and another ally possesses an |STS|.
-CCS*Frelian Generosity |ACT| |OPT| Choose 1 |Lance| |Flier| ally. Until the end of the turn they acquire this unit's "Stalwart Winged Lance".
+CCS*Frelian Generosity |ACT| |OPT| Choose 1 |Lance| |Flier| ally with a Class Change Cost. Until the end of the turn they acquire this unit's "Stalwart Winged Lance".
 ---------------
-AM02-30
+AM02-30-Innes
 true Innes
 Nidhogg, the Sacred Twin |ACT| |OPT| [Tap 1 ally] Choose up to 1 enemy or this unit and move them.
-STS*Strangling Serpent Bow |ACT| |OPT| Choose 1 enemy. Until the end of the turn, that enemy's Supports fail. This skill may only be used if this unit has used "Nidhogg, the Sacred Twin" this turn and another ally has an |STS|.
+STS*Strangling Serpent Bow |ACT| |OPT| Choose 1 enemy and 1 ally. Until the end of the turn, the chosen enemy's Supports fail when attacked by that ally. This skill may only be used if this unit has used "Nidhogg, the Sacred Twin" this turn and another ally has an |STS|.
 Anti-Fliers |CONT| If this unit is attacking a |Flier|, this unit gains +30 attack.
 ---------------
-AM02-31
-true Joshua 7
+AM02-31-Joshua
+true Joshua
 Audhulma, the Sacred Twin |ACT| |OPT| [Flip 1 |purple| Bond Card face-down] Reveal the top 4 cards of your opponent's Deck. Choose up to 2 of them and place them on top of your opponent's Deck in any order. Send the rest to the Retreat Area.
 STS*Flashing Ice Blade |AUTO| |OPT| When an enemy's Support card fails, choose 1 non-Main Character enemy and destroy them. This skill may only trigger if this unit has used "Audhulma, the Sacred Twin" this turn and another ally possesses an |STS|.
 ---------------
-AM02-32
-true Saleh 7
+AM02-32-Saleh
+true Saleh rlnch
+280
 Excalibur, the Sacred Twin |ACT| |OPT| [Flip 1 |purple| Bond face-down] Until the end of the turn, this unit gains +40 attack.
-STS*Guiding Wind Tome |ACT| |OPT| Choose 1 |Dragon| or |Tome| card with a Deployment Cost of 4 or lower and place it on top of your Deck. This skill only triggers if this unit has used "Excalibur, the Sacred Twin" this turn and another ally possesses an |STS|.
-Divine Dragon’s Guardian |AUTO| |OPT| When a |Dragon| card is placed in the Support Area, if you have 4 or fewer cards in your hand, draw 1 card.
+STS*Guiding Wind Tome |ACT| |OPT| Choose 1 |Dragon| or |Tome| card with a Deployment Cost of 4 or lower and place it on top of your Deck. This skill only triggers if this unit has used "Excalibur, the Sacred Twin" this turn and another ally has a |STS|.
+Divine Dragon’s Guardian |AUTO| |OPT| When a |Dragon| card is placed in the Support Area, if you have 3 or fewer cards in your hand, draw 1 card.
 ---------------
-AM02-33
-true Duessel
+AM02-33-Duessel
+true Duessel rlnch
+280
 Garm, the Sacred Twin |ACT| |OPT| [|flip1|] Until the end of the turn, this unit's attacks cannot be evaded by non-Main Character enemies.
 STS*Fiend-Cleaving Black Axe |ACT| |OPT| When this unit's attack destroys an enemy, untap this unit. This skill only may only be used if this unit has used "Garm, the Sacred Twin" this turn and another ally possesses an |STS|.
 Obsidian's Tutelage |AUTO| When this unit attacks, choose 1 ally. Until the end of your opponent's turn, they gain +10 attack.
 ---------------
-AM02-34
+AM02-34-Knoll
 true Knoll
 Gleipnir, the Sacred Twin |ACT| |OPT| [|flip1|] Until the end of the turn, this unit gains +20 attack.
 STS*Fiend-Purging Dark Tome |ACT| |OPT| Choose 1 Bond and flip it face-down. This skill only may only be used if this unit has used "Gleipnir, the Sacred Twin" this turn and another ally possesses an |STS|.
 ---------------
-AM02-35
+AM02-35-L'Arachel
 true L'Arachel
 Latona and Ivaldi, the Sacred Twins |ACT| |OPT| [|flip2|] Choose up to 1 non-"L'Arachel" card with Deployment Cost of 4 or lower from your Retreat Area and add it to your hand.
 STS*Saint's Staff and Glorious Light |ACT| |OPT| Choose 1 card from your Retreat Area and place it on the top of your Deck. Until the end of your opponent's next turn, this unit gains +10 attack for each other ally. This skill only may only be used if this unit has used "Latona and Ivaldi, the Sacred Twins" this turn and another ally possesses an |STS|.
 Rausten's Glory |CONT| If you have 3 or more allies with an |STS|, the cost of this unit's "Latona and Ivaldi, the Sacred Twins" becomes |flip1|.
 ---------------
-AM02-36
+AM02-36-Morva
 false Morva
 Ancient Dragonkin |CONT| If you have 6 or more Bond cards, this unit gains +30 attack.
 ---------------
-AM02-37
+AM02-37-Tethys
 true Tethys
 Alluring Performance |ACT| [|tap|, |flip1|] Choose 1 |Sword| or |Tome| ally in the Front Line with a Deployment Cost of 4 or lower, and untap them.
-Mercenary Dancer |CONT| If you have 2 or more other |Sword| allies in the Front Line, this unit can’t be attacked by enemies.
+Mercenary Dancer |CONT| If you have 2 or more other |Sword| allies in the Front Line, enemies can't attack this unit.
 ---------------
-AM02-38
+AM02-38-Elincia
 true Elincia
 On Glory's Wings |ACT| |OPT| [|flip2|] Untap this unit. If an ally has used a |GS| this turn, choose 1 ally. Choose up to 1 card in your Retreat Area with the same Unit Name as the chosen ally and stack it under them to Growth them.
 GS*Bearer of Hope |ACT| |OPT| [Send 2 cards stacked under this unit to the Retreat Area] Reveal the top 4 card of your Deck. Choose up to 1 card from among them and add it to your hand. Send the rest of the cards to the Retreat Area.
+---------------
+AM02-039-Haar
+true Haar
+Dragonlord's Storm |AUTO| When this unit's attack ends, choose 1 non-Main Character enemy in the Backline and move them.
+GS*Cancelling Bladeswath |AUTO| |OPT| [Send 1 card stacked under this unit to the Retreat Area] When an enemy is untapped by a skill's effect or deployed by a skill's effect, you may pay the cost and if you do: Choose 1 enemy and tap them. Until the end of your opponent's turn, that enemy cannot be untapped.
+Ironscale Wings |CONT| Enemies attacking |Dragon| allies lose "Anti-Fliers" and are unable to reacquire it.
+---------------
+AM02-040-Haar
+false Haar
+"Maybe next time." |AUTO| When this unit is deployed in the Front Line, tap this unit and move him.
+---------------
+AM02-041-Tanith
+true Tanith
+Tempest Flight |ACT| |OPT| Send the top 4 cards of your Deck to the Retreat Area. Choose 1 ally with Deployment Cost less than or equal to the number of |Flier| cards sent and move them.
+Reinforcing Wings |AUTO| |OPT| When an ally is moved by the cost or effect of a skill, choose 1 |Flier| ally. Choose up to 1 card with the same Unit Name as that ally in your Retreat Area and stack it under them to Growth them.
+GS*Grueling Training of the Holy Guard |ACT| [Send 1 card stacked under this unit to the Retreat Area] Choose up to 1 other |Flier| ally. Until the end of your opponent's turn, this unit and the chosen ally gains +10 attack and can be supported by cards with the same Unit Name as themselves.
+---------------
+AM02-42-Tanith
+false Tanith
+Holy Guardian's Wings |CONT| If this unit is being attacked by a non-|Flier|, this unit gains +20 attack.
+---------------
+AM02-43-Tormod
+false Tormod
+Arrival of Emancipation Army |AUTO| When you Class Change into this unit, choose 1 |Fang| card from your Retreat Area with a Deployment Cost of 4 or lower and either stack it on top of an ally with the same Unit Name or add it to your hand.
+Corsair's Rexflame |AUTO| When this unit attacks, send the top card of your opponent's Deck to the Retreat Area. Until the end of combat, this unit gains attack equal to the Deployment Cost of that card x10.
+---------------
+AM02-44-Muarim
+false Muarim
+Guardsman of the Liberators |ACT| |OPT| Until the end of your opponent's next turn, allied "Tormod", "Vika", and this unit gains +10 attack. This skill may only be used if you have an allied "Tormod" or "Vika".
+Plundering Tiger Claw |AUTO| When this unit attacks, reveal the top card of your opponent's Deck. You may send that card to the Retreat Area.
+---------------
+AM02-45-Triandra
+true Triandra
+Harrowing Nightmare |ACT| |OPT| Until the end of your opponent's next turn, your Main Character acquires the skill: "|CONT| Enemies cannot be untapped by the costs or effects of a skill.".
+Blade of Reverence |ACT| |OPT| [|tap|, Send 1 card from your Hand to the Retreat Area] Choose up to 2 non-Main Character enemies with a combined total Deployment Cost of up to 2 and destroy them.
+---------------
+AM02-46-Claude
+true Claude
+Dustcloud |ACT| |OPT| Choose 1 ally and move them.
+Relic Art: Fallen Star |AUTO| |OPT| [Flip 1 |Brown| Bond face-down] When this unit’s attack destroys an enemy, you may pay the cost and if you do: Look at the top 3 cards of your Deck. Choose 1 of them and add it to your hand. Choose another and stack it on top of your Deck. Send the rest to the Retreat Area.
+Anti-Fliers |CONT| If this unit is attacking a |Flier|, this unit gains +30 attack.
+---------------
+AM02-47-Hilda
+true Hilda
+Proficient Witstrike |CONT| If there are 4 or more enemies, the number of Orbs this unit's attack will destroy becomes 2.
+Lightning Bound |AUTO| When this unit attacks, choose 1 non-Main Character enemy in the Backline and move them. Then, if there are no units were moved this way, until the end of the turn, this cost of this unit's "Relic Art: Apocalyptic Flame" becomes |flip1|.
+Relic Art: Apocalyptic Flame |AUTO| |OPT| [|flip2|] When this unit’s attack destroys an enemy, you may pay the cost and if you do: Destroy all non-Main Character enemies in the Front Line.
+---------------
+AM02-48-Marianne
+true Marianne
+Faithful Heart’s Guidance |AUTO| |OPT| When a |Brown| ally is tapped by the cost or effect of a skill, untap that ally. Until the end of the turn, that ally cannot be tapped by the cost of a skill.
+Relic Art: Beast Fang |AUTO| |OPT| [|flip1|] When this unit’s attack destroys an enemy, you may pay the cost and if you do: Choose 1 |Brown| card that is |Beast| or |Flier| in your Retreat Area, and add it to your hand.
+---------------
+AM02-49-Petra
+true Petra
+Ensnaring Ambush |AUTO| [|tap|, |flip1|] When an enemy is deployed, you may pay the cost and if you do: Tap that enemy. Until the end of your next turn, this unit cannot untap and that enemy acquires "Hunted |CONT| This unit cannot untap or evade. Enemies in the Front Line can attack this unit regardless of range.".
+Successful Hunt |AUTO| When an enemy with "Hunted" is destroyed, draw 1 card.
+Lying in Wait |AUTO| At the end of your turn, if this unit did not attack this turn, untap this unit.
+---------------
+AM02-50-Timerra
+true Timerra
+Wayfaring Racket |AUTO| During your turn, when a unit is moved by the effect of a skill, until the end of the turn, this unit gains +10 attack.
+Bright, Bold Sandstorm |AUTO| At the end of your turn, choose up to 5 cards in either player's Retreat Area. Then, each player shuffles the chosen cards into their decks. Draw 1 card. This skill only triggers if this unit has 100 or more attack.
+---------------
+AM02-56-Merrin
+true Merrin
+Elegant Dagger Arts |AUTO| At the end of this unit's attack, if the defending enemy was not destroyed, until the end of your opponent's next turn, that enemy cannot untap.
+White Wolf's Swiftness |AUTO| At the start of each Action Phase, you may move this unit.
+---------------
+AM02-63-EmblemIke
+true EmblemIke
+“Emblem, Engage!” |AUTO| When this unit is deployed, choose 1 other |Cyan| ally. Send all |Emblem| cards in that ally's stack to the Retreat Area, then stack this card under that ally to Engage them.
+[ES] Immovable Stance |ACT| [Send 1 card from your hand to the Retreat Area, Send all |Emblem| cards in this unit's stack to the Retreat Area] Until the end of your opponent's next turn, this unit gains +30 attack. Tap this unit.
+Great Aether |SPEC| When this card is sent from another |Cyan| ally's stack to the Retreat Area due to the effect of "Immovable Stance", choose up to 2 non-Main Character enemies, and destroy them.
+---------------
+AM02-70-Alear(Male)
+true Alear(Male)
+Liberation's Might |ACT| |OPT| [|flip1|] Choose 1 up to enemy and move them. If this unit is Engaged, until the end of the turn, this unit gains +20 attack.
+Authority of the Connector |AUTO| |OPT| Whenever an ally becomes Engaged, reveal the top card of your Deck. If the revealed card is |Cyan|, place it in your Bond Area.
+---------------
