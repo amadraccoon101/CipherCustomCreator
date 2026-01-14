@@ -6,7 +6,7 @@ Falchion |CONT| If this unit is attacking a |Dragon|, this unit gains +20 attack
 ---------------
 AM02-02-Hardin
 true Hardin
-Insatiable Darkness |AUTO| [|flip2|] At the start of your opponent's Action Phase, you may pay the cost and if you do: Choose 1 other non-Main Character |Red| ally and 1 non-Main Character enemy. Send the chosen cards to the Boundless Area.
+Insatiable Darkness |AUTO| [|flip2|] At the start of your opponent's Action Phase, you may pay the cost and if you do: Choose 1 other non-Main Character |Red| ally and 1 non-Main Character enemy. If you do, send the chosen cards to the Boundless Area.
 Gradivus and Darksphere |AUTO| When a card is sent to the Boundless Area, until the end of the turn, this unit acquires range 1-2 and cannot be destroyed by attacks from enemies with a Deployment Cost of 3 or lower.
 ---------------
 AM02-03-Seliph
@@ -137,7 +137,7 @@ true Yoder rlnch
 280
 Aureola, the Legendary Weapon |ACT| [Flip 1 |Purple| Bond face-down] Until the end of the turn, this unit gains +20 attack.
 LIS*Elimine's All-Revealing Light |ACT| |OPT| Until the end of the turn, both players play with the top card of their Decks revealed. This skill is only usable if this unit has used "Aureola, the Legendary Weapon" 2 or more times this turn.
-Delivering the Legendary Weapons |AUTO| |OPT| When an ally uses a |LIS|, reveal 1 card that possesses a |LIS| from your hand, and place it on the top of your Deck.
+Delivering the Legendary Weapons |AUTO| |OPT| When an ally uses a |LIS|, you may reveal 1 card that possesses a |LIS| from your hand, and place it on the top of your Deck.
 ---------------
 AM02-27-Eirika
 true Eirika
@@ -146,8 +146,8 @@ Sacred Unity |AUTO| |OPT| [|flip2|] During your turn, if this unit is successful
 ---------------
 AM02-28-Ephraim
 true Ephraim
-STS*Siegmund, the Flame Lance |ACT| |OPT| [Reveal 1 |Purple| card with a Deployment Cost of 4 or lower in your hand and place it on top of your Deck] Until the end of the turn, this unit gains +10 attack per other ally in the Front Line. If you have another ally who possesses a |STS|, until the end of combat, this unit gains +10 attack per other ally in the Back Line.
-Comrades |AUTO| |OPT| During your turn, when a non-"Ephraim" card with a Deployment Cost of 4 or lower is placed in your Support Area, you may add that card to your hand. If you do, choose 1 card with a Deployment Cost of 4 or lower from your hand and place it in your Support Area.
+STS*Siegmund, the Flame Lance |ACT| |OPT| [Reveal 1 |Purple| card with a Deployment Cost of 4 or lower in your hand and place it on top of your Deck] Until the end of the turn, this unit gains +10 attack per other ally in the Front Line. If you have another ally who possesses a |STS|, this unit gains +10 attack per other ally in the Back Line.
+Comrades |AUTO| |OPT| During your turn, when a non-"Ephraim" card with a Deployment Cost of 4 or lower is placed in your Support Area, you may add that card to your hand. If you do, choose 1 card from your hand and place it in your Support Area.
 ---------------
 AM02-29-Tana
 true Tana
